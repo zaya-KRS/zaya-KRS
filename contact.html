@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contact</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<nav id="main-nav">
+            <div class="row">
+                <ul class="nav_menu">
+                    <li><a href="whoareu.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+		<div class="container">
+			<div>
+				<span class="title1">Contact Us</span>
+				<span class="title2">Message us below</span>
+			</div>
+			<form class="form">
+				<div class="name-div" data-validate="Name is required">
+					<span class="name-caption">Name:</span>
+						<input class="name-input" type="text" name="name" placeholder="Enter name...">
+				</div>
+				<div class="email-div" data-validate = "Valid email is required: ex@abc.xyz">
+					<span class="email-caption">Email:</span>
+						<input class="email-input" type="text" name="email" placeholder="Enter email addess...">
+				</div>
+				<div class="phone-div" data-validate="Phone is required">
+					<span class="phone-caption">Phone:</span>
+						<input class="phone-input" type="text" name="phone" placeholder="Enter phone number...">
+				</div>
+				<div class="message-div" data-validate = "Message is required">
+					<span class="message-caption">Message:</span>
+						<textarea class="message-input" name="message" placeholder="Message..."></textarea>
+				</div>
+				<div class="button-div">
+					<button class="button-submit">
+						<span class="submit">Submit</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
